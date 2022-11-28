@@ -2970,100 +2970,6 @@ module.exports = (app, port) => {
                 "lastModified": "2020-10-16T11:57:44.884Z",
                 "_locale": "en-US"
             },
-            "battleroyalenewsv2": {
-                "news": {
-                    "motds": [{
-                        "entryType": "Website",
-                        "image": `https://th.bing.com/th/id/R.b9283741234b7dd744be042555c851ca?rik=s%2badEyQJELx6Wg&pid=ImgRaw&r=0`,
-                        "tileImage": `https://th.bing.com/th/id/R.b9283741234b7dd744be042555c851ca?rik=s%2badEyQJELx6Wg&pid=ImgRaw&r=0`,
-                        "videoMute": false,
-                        "hidden": false,
-                        "tabTitleOverride": "ZeroFN Credits",
-                        "_type": "CommonUI Simple Message MOTD",
-                        "title": "ZeroFN Credits",
-                        "body": "Credits:\r\nBackend: Neonite\r\nModified Backend: TFN\r\nIdea and Owner: Pokelevel\r\nCarbon: Neonite",
-                        "videoLoop": false,
-                        "videoStreamingEnabled": false,
-                        "sortingPriority": 0,
-                        "id": "ZFNCreditNewsBR",
-                        "videoAutoplay": false,
-                        "videoFullscreen": false,
-                        "spotlight": false,
-                        "websiteURL": "https://discord.gg/Nx5SW25kNT",
-                        "websiteButtonText": "Join our discord"
-                    },
-		    {
-                        "entryType": "Website",
-                        "image": `https://th.bing.com/th/id/R.c43187ee94903f774468779947cf0a76?rik=%2faY3WeVmifGB6Q&pid=ImgRaw&r=0`,
-                        "tileImage": `https://th.bing.com/th/id/R.c43187ee94903f774468779947cf0a76?rik=%2faY3WeVmifGB6Q&pid=ImgRaw&r=0`,
-                        "videoMute": false,
-                        "hidden": false,
-                        "tabTitleOverride": "Event Chapter 1",
-                        "_type": "CommonUI Simple Message MOTD",
-                        "title": "Events Ch1",
-                        "body": "V7.20: Ice King\r\nV7.30: Marshmello\r\nV8.51: Unvaulting\r\nV9.40: The Final Showdown\r\nV10.40: The End",
-                        "videoLoop": false,
-                        "videoStreamingEnabled": false,
-                        "sortingPriority": 1,
-                        "id": "ZFNCh1NewsBR",
-                        "videoAutoplay": false,
-                        "videoFullscreen": false,
-                        "spotlight": false,
-                        "websiteURL": "",
-                        "websiteButtonText": ""
-                    },
-		    {
-                        "entryType": "Website",
-                        "image": `https://www.pcgamesn.com/wp-content/sites/pcgamesn/2020/06/FortniteTheDevice.jpg`,
-                        "tileImage": `https://www.pcgamesn.com/wp-content/sites/pcgamesn/2020/06/FortniteTheDevice.jpg`,
-                        "videoMute": false,
-                        "hidden": false,
-                        "tabTitleOverride": "Event Chapter 2",
-                        "_type": "CommonUI Simple Message MOTD",
-                        "title": "Events Ch2",
-                        "body": "V12.41: Travis Scott\r\nV12.61: The Device\r\nV14.60: The Devourer of Worlds\r\nV17.50: Operation: Sky Fire\r\nV18.40: The End (Chapter 2 Finale)",
-                        "videoLoop": false,
-                        "videoStreamingEnabled": false,
-                        "sortingPriority": 2,
-                        "id": "ZFNCh2NewsBR",
-                        "videoAutoplay": false,
-                        "videoFullscreen": false,
-                        "spotlight": false,
-                        "websiteURL": "",
-                        "websiteButtonText": ""
-                    },
-		    {
-                        "entryType": "Website",
-                        "image": `https://www.jaxon.gg/wp-content/uploads/2022/05/fortnite-mech-vs-monster-2-1.jpg`,
-                        "tileImage": `https://www.jaxon.gg/wp-content/uploads/2022/05/fortnite-mech-vs-monster-2-1.jpg`,
-                        "videoMute": false,
-                        "hidden": false,
-                        "tabTitleOverride": "Event Chapter 3",
-                        "_type": "CommonUI Simple Message MOTD",
-                        "title": "Events Ch3",
-                        "body": "V20.40: Collision\r\nV20.40: Collider Pulse",
-                        "videoLoop": false,
-                        "videoStreamingEnabled": false,
-                        "sortingPriority": 3,
-                        "id": "ZFNCh3NewsBR",
-                        "videoAutoplay": false,
-                        "videoFullscreen": false,
-                        "spotlight": false,
-                        "websiteURL": "",
-                        "websiteButtonText": ""
-			}]
-                },
-                "jcr:isCheckedOut": true,
-                "_title": "battleroyalenewsv2",
-                "header": "",
-                "style": "None",
-                "_noIndex": false,
-                "alwaysShow": false,
-                "jcr:baseVersion": "a7ca237317f1e704b1a186-6846-4eaa-a542-c2c8ca7e7f29",
-                "_activeDate": "2020-01-21T14:00:00.000Z",
-                "lastModified": "2021-02-10T23:57:48.837Z",
-                "_locale": "en-US"
-            },
             "dynamicbackgrounds": {
                 "jcr:isCheckedOut": true,
                 "backgrounds": {
@@ -3084,20 +2990,6 @@ module.exports = (app, port) => {
                 "jcr:baseVersion": "a7ca237317f1e7bac3355e-3ec1-4054-baf5-f88613799961",
                 "_activeDate": "2019-08-21T15:59:59.342Z",
                 "lastModified": "2020-08-27T08:04:47.051Z",
-                "_locale": "en-US"
-            },
-            "athenamessage": {
-                "_title": "athenamessage",
-                "overrideablemessage": {
-                    "_type": "CommonUI Simple Message",
-                    "message": {
-                        "_type": "CommonUI Simple Message Base",
-                        "title": Userconfig.news[0].title,
-                        "body": Userconfig.news[0].body
-                    }
-                },
-                "_activeDate": "2017-08-30T03:08:31.687Z",
-                "lastModified": "2017-09-26T16:20:19.191Z",
                 "_locale": "en-US"
             },
             "shopSections": {
@@ -3593,6 +3485,8 @@ module.exports = (app, port) => {
                         "videoAutoplay": false,
                         "videoFullscreen": false,
                         "spotlight": false,
+                        "websiteURL": "",
+                        "websiteButtonText": ""
                     },
 		    {
                         "entryType": "Website",
@@ -3611,6 +3505,8 @@ module.exports = (app, port) => {
                         "videoAutoplay": false,
                         "videoFullscreen": false,
                         "spotlight": false,
+                        "websiteURL": "",
+                        "websiteButtonText": ""
                     },
 		    {
                         "entryType": "Website",
@@ -3629,6 +3525,8 @@ module.exports = (app, port) => {
                         "videoAutoplay": false,
                         "videoFullscreen": false,
                         "spotlight": false,
+                        "websiteURL": "",
+                        "websiteButtonText": ""
 			}
                 ],
                 },
