@@ -3568,7 +3568,7 @@ module.exports = (app, port) => {
                         "body": "Credits:\r\nBackend: Neonite\r\nModified Backend: TFN\r\nIdea and Owner: Pokelevel\r\nCarbon: Neonite",
                         "videoLoop": false,
                         "videoStreamingEnabled": false,
-                        "sortingPriority": 0,
+                        "sortingPriority": 3,
                         "id": "ZFNCreditNewsBR",
                         "videoAutoplay": false,
                         "videoFullscreen": false,
@@ -3588,13 +3588,11 @@ module.exports = (app, port) => {
                         "body": "V7.20: Ice King\r\nV7.30: Marshmello\r\nV8.51: Unvaulting\r\nV9.40: The Final Showdown\r\nV10.40: The End",
                         "videoLoop": false,
                         "videoStreamingEnabled": false,
-                        "sortingPriority": 1,
+                        "sortingPriority": 2,
                         "id": "ZFNCh1NewsBR",
                         "videoAutoplay": false,
                         "videoFullscreen": false,
                         "spotlight": false,
-                        "websiteURL": "",
-                        "websiteButtonText": ""
                     },
 		    {
                         "entryType": "Website",
@@ -3608,13 +3606,11 @@ module.exports = (app, port) => {
                         "body": "V12.41: Travis Scott\r\nV12.61: The Device\r\nV14.60: The Devourer of Worlds\r\nV17.50: Operation: Sky Fire\r\nV18.40: The End (Chapter 2 Finale)",
                         "videoLoop": false,
                         "videoStreamingEnabled": false,
-                        "sortingPriority": 2,
+                        "sortingPriority": 1,
                         "id": "ZFNCh2NewsBR",
                         "videoAutoplay": false,
                         "videoFullscreen": false,
                         "spotlight": false,
-                        "websiteURL": "",
-                        "websiteButtonText": ""
                     },
 		    {
                         "entryType": "Website",
@@ -3628,13 +3624,11 @@ module.exports = (app, port) => {
                         "body": "V20.40: Collision\r\nV20.40: Collider Pulse",
                         "videoLoop": false,
                         "videoStreamingEnabled": false,
-                        "sortingPriority": 3,
+                        "sortingPriority": 0,
                         "id": "ZFNCh3NewsBR",
                         "videoAutoplay": false,
                         "videoFullscreen": false,
                         "spotlight": false,
-                        "websiteURL": "",
-                        "websiteButtonText": ""
 			}
                 ],
                 },
