@@ -1,11 +1,5 @@
 module.exports = (app, port) => {
-    var oauth = require("./oauth")
-    const NeoLog = require('../structs/NeoLog')
-    //${AccountIDP.accountIdP}
     app.get("/content/api/pages/fortnite-game", (req, res) => {
-        NeoLog.Log(`Loaded config file for ${oauth.accountIDT}`)
-        module.exports.authID = oauth.accountIDT;
-        var Userconfig = require(`../config/${oauth.accountIDT}/profiles/profile_uConfig.json`)
         res.json({
             "jcr:isCheckedOut": true,
             "_title": "Fortnite Game",
@@ -3485,8 +3479,6 @@ module.exports = (app, port) => {
                         "videoAutoplay": false,
                         "videoFullscreen": false,
                         "spotlight": false,
-                        "websiteURL": "",
-                        "websiteButtonText": ""
                     },
 		    {
                         "entryType": "Website",
@@ -3505,8 +3497,6 @@ module.exports = (app, port) => {
                         "videoAutoplay": false,
                         "videoFullscreen": false,
                         "spotlight": false,
-                        "websiteURL": "",
-                        "websiteButtonText": ""
                     },
 		    {
                         "entryType": "Website",
@@ -3525,8 +3515,6 @@ module.exports = (app, port) => {
                         "videoAutoplay": false,
                         "videoFullscreen": false,
                         "spotlight": false,
-                        "websiteURL": "",
-                        "websiteButtonText": ""
 			}
                 ],
                 },
